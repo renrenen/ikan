@@ -393,7 +393,7 @@ var MAC={
         'Init':function($obj,$mid,$jumpurl){
             try {
                 $($obj).autocomplete(maccms.path + '/index.php/ajax/suggest?mid=' + $mid, {
-                    inputClass: "mac_input",
+                    
                     resultsClass: "mac_results",
                     loadingClass: "mac_loading",
                     width: 175, scrollHeight: 300, minChars: 1, matchSubset: 0,
