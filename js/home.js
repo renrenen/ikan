@@ -903,7 +903,7 @@ $(function(){
     //用户访问记录初始化
     MAC.Ulog.Init();
     //联想搜索初始化
-    MAC.Suggest.Init('.mac_wd',1,'');
+    MAC.Suggest.Init('.mac_wd',0,'');
     //定时任务初始化
     MAC.Timming();
 });
